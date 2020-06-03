@@ -1,8 +1,8 @@
 # "1033" Program Transfers Post Ferguson
 
-This repository analyzes the transfers made by the Defense Logistics Agency to local law enforcement since the protests in Ferguson, MO in August 2014 in support of the June TKTK, 2020 BuzzFeed News story TKTKTKTK. 
+This repository analyzes the transfers made by the Defense Logistics Agency to local law enforcement since the protests in Ferguson, Missouri in August 2014 in support of the June TKTK, 2020 BuzzFeed News story TKTKTKTK. 
 
-The DLA is a sub-agency of the Department of Defense that provides equipment to local law enforcement agencies through its Law Enforcement Support Office. The program is commonly referred to as the "1033" program due to the statute that created it in 1997.
+The DLA is a sub-agency of the Department of Defense; it provides equipment to local law enforcement agencies [through its Law Enforcement Support Office](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/). The program is commonly referred to as the ["1033" program](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/ProgramFAQs.aspx) due to the statute that enabled it in 1997.
 
 ## Data
 
@@ -16,12 +16,12 @@ The [`convert-1033-data-excel.ipynb`](notebooks/convert-1033-data-excel.ipynb) n
 
 ### Analysis
 
-The [`1033-transfers-post-ferguson.ipynb`](notebooks/1033-transfers-post-ferguson.ipynb) takes the CSV data and analyzes all transfers where the `Ship Date` is after August 25, 2014, which was the end of the protests in Ferguson, MO. It walks through a few different pieces of analysis, including:
+The [`1033-transfers-post-ferguson.ipynb`](notebooks/1033-transfers-post-ferguson.ipynb) takes the CSV data and analyzes all transfers where the `Ship Date` is after August 25, 2014, which marked the end of the first wave of protests in Ferguson. It walks through a few different pieces of analysis, including:
 
 - Loading the data
 - Filtering for transfers post August 25, 2014
 - Totaling the transfers
-- Going through analysis of items in support of the story
+- Highlighting categories of items mentioned in the story
 
 ## Licensing
 
