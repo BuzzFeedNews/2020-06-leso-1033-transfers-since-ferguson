@@ -6,17 +6,17 @@ The DLA is a sub-agency of the Department of Defense that provides equipment to 
 
 ## Data
 
-The data used in this analysis comes from the DLA's [LESO Public Information](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/) page. The `[data/all.xlsx]("/data/all.xlsx")` file contains all property transferred to participating agencies that was held by them as of March 31, 2020. It is updated quarterly.
+The data used in this analysis comes from the DLA's [LESO Public Information](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/) page. The `[data/all.xlsx](data/all.xlsx)` file contains all property transferred to participating agencies that was held by them as of March 31, 2020. It is updated quarterly.
 
 ## Notebooks
 
 ### Data Conversion
 
-The [`convert-1033-data-excel.ipynb`]("/notebooks/convert-10333-data-excel.ipynb") notebook takes the Excel file the DLA produces, reads each of the 52 sheets, and combines them into a single CSV with all the available data. The resulting CSV file is output to [`outputs/dla-1033-transfers.csv`]("/outputs/dla-1033-transfers.csv").
+The [`convert-1033-data-excel.ipynb`](notebooks/convert-10333-data-excel.ipynb) notebook takes the Excel file the DLA produces, reads each of the 52 sheets, and combines them into a single CSV with all the available data. The resulting CSV file is output to [`outputs/dla-1033-transfers.csv`](outputs/dla-1033-transfers.csv").
 
 ### Analysis
 
-The [`1033-transfers-post-ferguson.ipynb`]("/notebooks/1033-transfers-post-ferguson.ipynb") takes the CSV data and analyzes all transfers where the `Ship Date` is after August 25, 2014, which was the end of the protests in Ferguson, MO. It walks through a few different pieces of analysis, including:
+The [`1033-transfers-post-ferguson.ipynb`](notebooks/1033-transfers-post-ferguson.ipynb) takes the CSV data and analyzes all transfers where the `Ship Date` is after August 25, 2014, which was the end of the protests in Ferguson, MO. It walks through a few different pieces of analysis, including:
 
 - Loading the data
 - Filtering for transfers post August 25, 2014
