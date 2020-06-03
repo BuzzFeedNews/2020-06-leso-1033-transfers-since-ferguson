@@ -1,4 +1,4 @@
-# "1033" Program Transfers Post Ferguson
+# "1033" Program Transfers Since Ferguson
 
 This repository analyzes the transfers made by the Defense Logistics Agency to local law enforcement since the protests in Ferguson, Missouri in August 2014 in support of the June TKTK, 2020 BuzzFeed News story TKTKTKTK. 
 
